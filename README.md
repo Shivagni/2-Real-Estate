@@ -79,7 +79,7 @@ The economic multivariate data has a significant number of measured variables. T
 
 Each variable is assumed to be dependent upon a linear combination of the common factors, and the coefficients are known as loadings. Each measured variable also includes a component due to independent random variability, known as “specific variance” because it is specific to one variable. Obtain the common factors and then plot the loadings. Use factor analysis to find latent variables in our dataset and gain insight into the linear relationships in the data. 
 
-       Following are the list of latent variables:
+Following are the list of latent variables:
 
 Highschool graduation rates
 
@@ -97,15 +97,15 @@ Data Modeling :
 
 Build a linear Regression model to predict the total monthly expenditure for home mortgages loan. 
 
-       Please refer deplotment_RE.xlsx. Column hc_mortgage_mean is predicted variable. This is the mean monthly mortgage and owner costs of specified geographical location.
+   Please refer deplotment_RE.xlsx. Column hc_mortgage_mean is predicted variable. This is the mean monthly mortgage and owner costs of specified geographical location.
 
-       Note: Exclude loans from prediction model which have NaN (Not a Number) values for hc_mortgage_mean. 
+   Note: Exclude loans from prediction model which have NaN (Not a Number) values for hc_mortgage_mean. 
 
-       a) Run a model at a Nation level. If the accuracy levels and R square are not satisfactory proceed to below step.
+   a) Run a model at a Nation level. If the accuracy levels and R square are not satisfactory proceed to below step.
 
-       b) Run another model at State level. There are 52 states in USA.
+   b) Run another model at State level. There are 52 states in USA.
 
-       c) Keep below considerations while building a linear regression model:
+   c) Keep below considerations while building a linear regression model:
 
 Variables should have significant impact on predicting Monthly mortgage and owner costs
 
